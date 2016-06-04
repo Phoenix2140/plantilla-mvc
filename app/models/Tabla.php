@@ -36,7 +36,6 @@
 			$this->db->bind(':nombre', $nombre);
 
 			$this->db->execute();
-
 		}
 
 		/**
@@ -58,7 +57,6 @@
 			$this->db->bind(':nombre', $nombre);
 
 			$this->db->execute();
-
 		}
 	}
  ?>

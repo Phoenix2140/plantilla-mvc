@@ -119,3 +119,5 @@ MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=3;
 
 ### Comentarios
 El código tiene varios comentarios para facilitar el entendimiento de este.
+Para cualquier consulta o comentario escribir a [hector.alvarez@linux.com](mailto:hector.alvarez@linux.com)
+Ejemplo desarrollado por Héctor Álvarez.

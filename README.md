@@ -50,7 +50,7 @@ $ service apache2 restart
 ```
 
 ### Instalación alternativa
-Si tuvieron problemas con la instalación es posible lanzar un servior directamente desde PHP, para hacerlo tienen que ir a la ruta de su proyecto e ir a la carpeta public, Luego ejecutan el siguiente comando:
+Si tuvieron problemas con la instalación es posible lanzar un servidor directamente desde PHP, para hacerlo tienen que ir al directorio "public" dentro de la ruta de su proyecto, a continuación ejecutan el siguiente comando en el terminal ( desde la carpeta public ):
 ```sh
 $ php -S localhost:8080
 ```

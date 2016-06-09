@@ -49,6 +49,13 @@ $ a2ensite mcv.dev.conf
 $ service apache2 restart
 ```
 
+### Instalación alternativa
+Si tuvieron problemas con la instalación es posible lanzar un servior directamente desde PHP, para hacerlo tienen que ir a la ruta de su proyecto e ir a la carpeta public, Luego ejecutan el siguiente comando:
+```sh
+$ php -S localhost:8080
+```
+Luego para acceder a su proyecto ingresan a la url http://localhost:8080 , No se olviden de agregar esa dirección en la configuración de su proyecto.
+
 ### La base de datos
 La base de datos de ejemplo es la siguiente:
 ```sh
@@ -119,5 +126,7 @@ MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=3;
 
 ### Comentarios
 El código tiene varios comentarios para facilitar el entendimiento de este.
+
 Para cualquier consulta o comentario escribir a [hector.alvarez@linux.com](mailto:hector.alvarez@linux.com)
+
 Ejemplo desarrollado por Héctor Álvarez.
